@@ -318,7 +318,7 @@ void __btd_log_init(const char *debug, int detach)
 
 	openlog(LOG_IDENT, option, LOG_DAEMON);
 
-	info("Bluetooth daemon %s", VERSION);
+//	info("Bluetooth daemon %s", VERSION);
 }
 
 void __btd_log_cleanup(void)

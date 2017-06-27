@@ -801,7 +801,7 @@ void tester_init(int *argc, char ***argv)
 	g_option_context_free(context);
 
 	if (option_version == TRUE) {
-		g_print("%s\n", VERSION);
+//		g_print("%s\n", VERSION);
 		exit(EXIT_SUCCESS);
 	}
 
